@@ -15,7 +15,16 @@
 
     <ItemGroup>
       <None Remove="Algorithms\Easy\StrongPassword\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SalesByMatch\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SalesByMatch\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\Input.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Algorithms\Easy\StrongPassword\ExpectedOutput.txt" />
+        <EmbeddedResource Include="Algorithms\Easy\StrongPassword\ExpectedOutput.txt" />
     </ItemGroup>
 
 </Project>
