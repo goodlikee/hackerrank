@@ -2,18 +2,12 @@
 using Tasks.Utils;
 using System.IO;
 
-namespace Tasks.Algorithms.Easy.DrawingBook
+namespace Tasks.Algorithms.Easy.CountingValleys
 {
     public class Task : TestBase<Task>
     {
         [Test]
         public void Test1()
-        {
-            runOneTest();
-        }
-
-        [Test]
-        public void Test2()
         {
             runOneTest();
         }

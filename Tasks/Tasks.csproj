@@ -14,17 +14,21 @@
     </ItemGroup>
 
     <ItemGroup>
+      <EmbeddedResource Include="Algorithms\Easy\CountingValleys\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\CountingValleys\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\Input.txt" />
       <None Remove="Algorithms\Easy\StrongPassword\Input.txt" />
-      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\ExpectedOutput.txt" />
-      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\Input.txt" />
-      <EmbeddedResource Include="Algorithms\Easy\SalesByMatch\ExpectedOutput.txt" />
-      <EmbeddedResource Include="Algorithms\Easy\SalesByMatch\Input.txt" />
-      <EmbeddedResource Include="Algorithms\Easy\StrongPassword\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test2\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test2\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SalesByMatch\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SalesByMatch\TestCase\Test1\Input.txt" />
     </ItemGroup>
 
     <ItemGroup>
         <None Remove="Algorithms\Easy\StrongPassword\ExpectedOutput.txt" />
-        <EmbeddedResource Include="Algorithms\Easy\StrongPassword\ExpectedOutput.txt" />
     </ItemGroup>
 
 </Project>

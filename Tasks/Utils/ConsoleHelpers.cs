@@ -5,10 +5,10 @@ namespace Tasks.Utils
 {
     public static class ConsoleHelpers
     {
-        private const string InputFileName = "Input.txt";
-        public static StreamRedirection RedirectInputFileToConsole(Type type)
+        
+        public static StreamRedirection RedirectInputFileToConsole(string path)
         {
-            var stream = type.Assembly.GetManifestResourceStream($"{type.Namespace}.{InputFileName}");
+            var stream = File.OpenRead(path);
             var reader = new StreamReader(stream);
             Console.SetIn(reader);
 
