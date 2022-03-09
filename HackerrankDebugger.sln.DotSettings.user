@@ -7,6 +7,8 @@
       &lt;TestId&gt;NUnit3x::A0F74CE5-E9BA-4029-856B-5CD1EECB5BC5::net5.0::Tasks.Algorithms.Easy.DrawingBook.Task.Test1&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::A0F74CE5-E9BA-4029-856B-5CD1EECB5BC5::net5.0::Tasks.Algorithms.Easy.DrawingBook.Task.Test2&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::A0F74CE5-E9BA-4029-856B-5CD1EECB5BC5::net5.0::Tasks.Algorithms.Easy.CountingValleys.Task.Test1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::A0F74CE5-E9BA-4029-856B-5CD1EECB5BC5::net5.0::Tasks.Algorithms.Easy.TheHurdleRace.Task.Test1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::A0F74CE5-E9BA-4029-856B-5CD1EECB5BC5::net5.0::Tasks.Algorithms.Easy.TheHurdleRace.Task&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
