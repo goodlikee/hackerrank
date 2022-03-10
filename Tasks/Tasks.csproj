@@ -22,6 +22,8 @@
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test1\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test2\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test2\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Medium\ClimbingTheLeaderboard\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Medium\ClimbingTheLeaderboard\TestCase\Test1\Input.txt" />
       <None Remove="Algorithms\Easy\StrongPassword\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test1\Input.txt" />
