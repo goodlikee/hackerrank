@@ -16,6 +16,14 @@
     <ItemGroup>
       <EmbeddedResource Include="Algorithms\Easy\CountingValleys\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\CountingValleys\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DesignerPDFViewer\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DesignerPDFViewer\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DesignerPDFViewer\TestCase\Test2\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\DesignerPDFViewer\TestCase\Test2\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test2\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test2\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test1\ExpectedOutput.txt" />
@@ -24,6 +32,10 @@
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test2\Input.txt" />
       <EmbeddedResource Include="Algorithms\Medium\ClimbingTheLeaderboard\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Medium\ClimbingTheLeaderboard\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Medium\FormingMagicSquare\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Medium\FormingMagicSquare\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Medium\FormingMagicSquare\TestCase\Test2\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Medium\FormingMagicSquare\TestCase\Test2\Input.txt" />
       <None Remove="Algorithms\Easy\StrongPassword\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\DrawingBook\TestCase\Test1\Input.txt" />
