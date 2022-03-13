@@ -9,7 +9,7 @@ namespace Tasks.Algorithms.Easy.CountingValleys
         [Test]
         public void Test1()
         {
-            runTest<Solution>();
+            RunTest<Solution>();
         }
     }
 }

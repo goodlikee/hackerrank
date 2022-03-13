@@ -9,13 +9,13 @@ namespace Tasks.Algorithms.Easy.DrawingBook
         [Test]
         public void Test1()
         {
-            runTest<Solution>();
+            RunTest<Solution>();
         }
 
         [Test]
         public void Test2()
         {
-            runTest<Solution>();
+            RunTest<Solution>();
         }
     }
 }

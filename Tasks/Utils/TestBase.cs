@@ -8,26 +8,22 @@ namespace Tasks.Utils
     {
         private const string InputFileName = "Input.txt";
         private const string OutputFileName = "Output.txt";
+        private const string TestCaseDirectoryName = "TestCase";
+
         private StreamRedirection _streamRedirection;
-        protected StreamRedirection _streamExpectedOutput;
-        protected StreamRedirection _streamOutput;
-
-
-        protected string testCaseDirecotyName = "TestCase";
+        private StreamRedirection _streamExpectedOutput;
+        private StreamRedirection _streamOutput;
 
         [SetUp]
         public void Setup()
         {
-            var testName = TestContext.CurrentContext.Test.Name;
-            var type = typeof(TType);
-            string solutionFullPath = System.IO.Path.GetFullPath(@"..\..\..\..\");
-            string testCasePath = solutionFullPath + NamespaceToPath(type.Namespace) +
-                                  $"\\{testCaseDirecotyName}\\{testName}";
+            var testCasePath = Path.GetFullPath(@"..\..\..\..\")
+                               + NamespaceToPath(typeof(TType).Namespace)
+                               + $"\\{TestCaseDirectoryName}\\{TestContext.CurrentContext.Test.Name}";
 
-            @System.Environment.SetEnvironmentVariable("OUTPUT_PATH", $"{testCasePath}\\{OutputFileName}");
+            Environment.SetEnvironmentVariable("OUTPUT_PATH", $"{testCasePath}\\{OutputFileName}");
             _streamRedirection = ConsoleHelpers.RedirectInputFileToConsole($"{testCasePath}\\{InputFileName}");
-            _streamExpectedOutput =
-                StreamHelper.Make(File.OpenRead($"{testCasePath}\\ExpectedOutput.txt"));
+            _streamExpectedOutput = StreamHelper.Make(File.OpenRead($"{testCasePath}\\ExpectedOutput.txt"));
         }
 
         [TearDown]
@@ -39,12 +35,12 @@ namespace Tasks.Utils
             File.Delete(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"));
         }
 
-        private string NamespaceToPath(string str)
+        private static string NamespaceToPath(string str)
         {
             return str.Replace(".", "\\");
         }
 
-        protected void runTest<T>()
+        protected void RunTest<T>()
         {
             typeof(T).GetMethod("Main2")?.Invoke(null, new object[] {Array.Empty<string>()});
             _streamOutput = StreamHelper.Make(File.OpenRead(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH")));

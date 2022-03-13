@@ -9,7 +9,7 @@ namespace Tasks.Algorithms.Medium.ClimbingTheLeaderboard
         [Test]
         public void Test1()
         {
-            runTest<Solution>();
+            RunTest<Solution>();
         }
     }
 }
