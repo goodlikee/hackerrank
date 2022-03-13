@@ -24,6 +24,10 @@
       <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test1\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test2\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\PickingNumbers\TestCase\Test2\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test1\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test1\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test2\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test2\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test1\ExpectedOutput.txt" />

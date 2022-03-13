@@ -43,5 +43,14 @@ namespace Tasks.Utils
         {
             return str.Replace(".", "\\");
         }
+
+        protected void runTest<T>()
+        {
+            typeof(T).GetMethod("Main2")?.Invoke(null, new object[] {Array.Empty<string>()});
+            _streamOutput = StreamHelper.Make(File.OpenRead(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH")));
+            var s1 = _streamExpectedOutput.StreamReader.ReadToEnd().Trim();
+            var s2 = _streamOutput.StreamReader.ReadToEnd().Trim();
+            Assert.IsTrue(string.Equals(s1, s2));
+        }
     }
 }
