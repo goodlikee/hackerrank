@@ -19,15 +19,7 @@ namespace Tasks.Algorithms.Easy.SaveThePrisoner
 
         public static int saveThePrisoner(int n, int m, int s)
         {
-            var x = m % n;
-            if (x == 0)
-            {
-                return s;
-            }
- 
-            var num = x + s;
-            var xx = num > s ? num - s - 1 : num + 1;
-            return xx;
+            return (m + s - 2) % n + 1;
         }
     }
 
@@ -51,7 +43,7 @@ namespace Tasks.Algorithms.Easy.SaveThePrisoner
 
                 int result = Result.saveThePrisoner(n, m, s);
 
-                textWriter.WriteLine(result);
+                textWriter.Write((result + "\n"));
             }
 
             textWriter.Flush();

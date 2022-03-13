@@ -17,5 +17,29 @@ namespace Tasks.Algorithms.Easy.SaveThePrisoner
         {
             RunTest<Solution>();
         }
+
+        [Test]
+        public void Test3()
+        {
+            RunTest<Solution>();
+        }
+
+        [Test]
+        public void Test4()
+        {
+            RunTest<Solution>();
+        }
+
+        [Test]
+        public void Test5()
+        {
+            RunTest<Solution>();
+        }
+
+        [Test]
+        public void Test6()
+        {
+            RunTest<Solution>();
+        }
     }
 }

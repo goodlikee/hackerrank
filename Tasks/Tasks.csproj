@@ -28,6 +28,14 @@
       <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test1\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test2\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test2\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test3\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test3\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test4\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test4\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test5\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test5\Input.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test6\ExpectedOutput.txt" />
+      <EmbeddedResource Include="Algorithms\Easy\SaveThePrisoner\TestCase\Test6\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\ExpectedOutput.txt" />
       <EmbeddedResource Include="Algorithms\Easy\StrongPassword\TestCase\Test1\Input.txt" />
       <EmbeddedResource Include="Algorithms\Easy\TheHurdleRace\TestCase\Test1\ExpectedOutput.txt" />
